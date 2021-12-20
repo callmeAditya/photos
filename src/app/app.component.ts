@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TumblrService } from './tumblr.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'photos';
+
+  getEvent(){
+    // this.tumblr.getImage().subscribe((res:any)=>{
+    //   console.log('url',res.header);
+      
+    // })
+  }
+
 }
